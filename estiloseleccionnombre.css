@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+/**
+ * Main CSS Stylesheet
+ *
+ * @package templateSystem
+ * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: stylesheet.css 5952 2007-03-03 06:18:46Z drbyte $
+ */
+.block{
+    display: block;
+}
+
+.popup-win {
+    margin: 0;
+    background: #ffffff;
+    border: 1px solid #CECECE; 
+	outline: 1px solid #ffffff;
+	padding: 5px 14px 5px 6px;
+	width: 120px;
+}
+.popup-win a, .popup-win a:link, .popup-win a:visited, .popup-win a:active {
+	line-height: 18px;
+	padding: 2px 3px;
+	color: #828282;
+}
+ .popup-win a:hover {
+	text-decoration: underline;
+} 
+.currency, .languages {
+    position: relative;
+	_position: static;
+}
+* html .popup-win {
+    margin: 15px 0 0 -54px;
+}
+*+ html .popup-win {
+    margin: 15px 0 0 -54px;
+}
+.close-pic {
+	cursor: pointer;
+	margin: -2px -11px 0 0;
+}
+#currPopup, #langPopup {
+    position: absolute;
+	z-index: 3000;
+ 	/* right: 0; */
+	_margin-left: -140px; 
+}
+html>body #currPopup, html>body #langPopup{
+	right: 0;
+}
+.hidden { 
+	display: none; 
+}
+.list-popup {
+	display: block;
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+}
+* html .list-popup a {
+	display: inline-block;
+}
+
+.list-popup li {
+	white-space: nowrap;
+	float: left;
+}

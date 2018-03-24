@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Tienda gene</title>
+    <link rel="stylesheet" href="hojaestilos.css"/>
+	<link rel="shortcut icon" href="imagenes/escudogene.ico" type="image/x-icon" />
+</head>
+
+<body>
+<div align="center">
+<header id="cabeceraplantillaprimerequipo">
+    	<h1>¿Quieres comprar la camiseta de tu ídolo?</h1>
+        <footer><a href="primerapaginaweb.html">Vuelta a la página inicio</a></footer>
+    </header>
+    <table border="1px" bordercolor="#000000">
+    <td>
+  	<figure>
+    	<img src="imagenes/equipaciongene.jpeg" width="400px" height="300px"/>
+        <figcaption><strong>Precio: 24,99€ </strong></figcaption>
+    </figure>
+    <h2>Camiseta Gene FC</h2>
+    <div class="wrapperAttribsOptions">
+		<h4 class="optionName back"><label class="attribsSelect" for="attrib-1">Nombre y número</label></h4>
+			<div class="back">
+				<select name="id[1]" id="attrib-1">
+                	<option selected disabled>Elige a tu ídolo</option>
+  					<option value="29">2. Troncho</option>
+  					<option value="28">3. Paca</option>
+  					<option value="27">4. Recluta</option>
+  					<option value="30">5. Parao</option>
+                    <option value="31">7. Kichi</option>
+                    <option value="32">9. Barbie</option>
+                    <option value="33">10. Sino</option>
+                    <option value="34">23. Preca</option>
+                    <option value="35">99. Chicho</option>
+				</select>
+			</div>	
+	</div>
+    
+	
+
+	<div class="wrapperAttribsOptions">
+		<h4 class="optionName back"><label class="attribsSelect" for="attrib-1">Tamaño</label></h4>
+			<div class="back">
+				<select name="id[1]" id="attrib-1">
+  					<option value="36">L/175-180CM</option>
+  					<option value="37">M/170-175CM</option>
+  					<option value="38">S/160-170CM</option>
+  					<option value="39">XL/180-195CM</option>
+				</select>
+			</div>
+		<br class="clearBoth" />
+	</div>
+
+	<div class="wrapperAttribsOptions">
+		<h4 class="optionName back"><label class="attribsSelect" for="attrib-2">Pantalones Cortos</label></h4>
+			<div class="back">
+				<select name="id[2]" id="attrib-2">
+  					<option value="40">No</option>
+  					<option value="41">Sí ( +&euro;5.00 )</option>
+				</select>
+			</div>
+		<br class="clearBoth" />
+	</div>
+
+<script>
+$(function(){
+	var t = $("#text_box");
+	$("#add").click(function(){		
+		t.val(parseInt(t.val())+1)
+		if (parseInt(t.val())!=1){
+            $('#min').attr('disabled',false);
+        }
+		
+	})	
+	$("#min").click(function(){
+		t.val(parseInt(t.val())-1)
+		if (parseInt(t.val())==1){
+            $('#min').attr('disabled',true);
+        }
+		if(parseInt(t.val())==0){
+			alert("Quantity can not be less than 1 !");
+			t.val(parseInt(t.val())+1)
+		}
+		
+	})
+
+})
+</script>
+
+<!--bof Add to Cart Box -->
+                  <div class="product-options-bottom">
+        <div class="add-to-cart">
+        <a href="carrocompra/carrocompra.html">
+   <input type="hidden" name="products_id" value="3644" /><input class="cssButton button_in_cart" onmouseover="this.className='cssButtonHover button_in_cart button_in_cartHover'" onmouseout="this.className='cssButton button_in_cart'" type="submit" value="Añadir al carro" style="width: 104px;" /></a>        </div>
+    </div>
+  <!--eof Add to Cart Box-->
+
+</div>
+</td>
+<td>
+  	<figure>
+    	<img src="imagenes/equipaccionvallehermoso.jpg" width="400px" height="300px"/>
+        <figcaption><strong>Precio: 24,99€ </strong></figcaption>
+    </figure>
+    <h2>Camiseta Vallehermoso FC</h2>
+    <div class="wrapperAttribsOptions">
+		<h4 class="optionName back"><label class="attribsSelect" for="attrib-1">Nombre y número</label></h4>
+			<div class="back">
+				<select name="id[1]" id="attrib-1">
+                	<option selected disabled>Elige a tu ídolo</option>
+  					<option value="290">4. Rata</option>
+  					<option value="280">5. Artur</option>
+  					<option value="270">6. Skinhead</option>
+  					<option value="300">7. Nicolás</option>
+                    <option value="310">8. Gati</option>
+                    <option value="320">9. Pocholo</option>
+                    <option value="330">10. Gangoso</option>
+                    <option value="340">11. Apo</option>
+                    <option value="350">14. Sito</option>
+                    <option value="360">15. Judion</option>
+                    <option value="370">27. Amador</option>
+                    <option value="380">90. Rabo</option>
+				</select>
+			</div>	
+	</div>
+    
+	
+
+	<div class="wrapperAttribsOptions">
+		<h4 class="optionName back"><label class="attribsSelect" for="attrib-1">Tamaño</label></h4>
+			<div class="back">
+				<select name="id[1]" id="attrib-1">
+  					<option value="390">L/175-180CM</option>
+  					<option value="400">M/170-175CM</option>
+  					<option value="410">S/160-170CM</option>
+  					<option value="420">XL/180-195CM</option>
+				</select>
+			</div>
+		<br class="clearBoth" />
+	</div>
+
+	<div class="wrapperAttribsOptions">
+		<h4 class="optionName back"><label class="attribsSelect" for="attrib-2">Pantalones Cortos</label></h4>
+			<div class="back">
+				<select name="id[2]" id="attrib-2">
+  					<option value="430">No</option>
+  					<option value="440">Sí ( +&euro;5.00 )</option>
+				</select>
+			</div>
+		<br class="clearBoth" />
+	</div>
+
+<script>
+$(function(){
+	var t = $("#text_box");
+	$("#add").click(function(){		
+		t.val(parseInt(t.val())+1)
+		if (parseInt(t.val())!=1){
+            $('#min').attr('disabled',false);
+        }
+		
+	})	
+	$("#min").click(function(){
+		t.val(parseInt(t.val())-1)
+		if (parseInt(t.val())==1){
+            $('#min').attr('disabled',true);
+        }
+		if(parseInt(t.val())==0){
+			alert("Quantity can not be less than 1 !");
+			t.val(parseInt(t.val())+1)
+		}
+		
+	})
+
+})
+</script>
+
+<!--bof Add to Cart Box -->
+                  <div class="product-options-bottom">
+        <div class="add-to-cart">
+        <a href="carrocompra/carrocompra2.html">
+   <input type="hidden" name="products_id" value="3644" /><input class="cssButton button_in_cart" onmouseover="this.className='cssButtonHover button_in_cart button_in_cartHover'" onmouseout="this.className='cssButton button_in_cart'" type="submit" value="Añadir al carro" style="width: 104px;" /></a>        </div>
+    </div>
+  <!--eof Add to Cart Box-->
+
+</div>
+</td>
+</div>
+</body>
+</html>
