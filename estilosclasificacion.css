@@ -1,0 +1,497 @@
+@charset "utf-8";
+.NoTexto {font-size: 0px}
+
+/********** TEXTO NEGRO **********/
+.TextoNegro9B {FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoNegro9 {FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoNegro10 {FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoNegro10B {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoNegro10BA {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoNegro12B {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoNegro12 {FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+.TextoCampeones{ color: #990000; 
+    FONT-WEIGHT: bold; FONT-SIZE: 24px; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+
+/********** TEXTO GRIS **********/
+.TextoGris10 {FONT-SIZE: 10px; COLOR: #777777; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+
+/********** TEXTO BLANCO **********/
+.TextoBlanco10BA {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoBlanco9 {FONT-SIZE: 9px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoBlanco10 {FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoBlanco10B {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoBlanco11B {FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoBlanco12B {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoBlanco14B {FONT-WEIGHT: bold; FONT-SIZEun 14px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+
+/********** TEXTO VERDE OSCURO **********/
+.TextoVerdeOscuro9 {FONT-SIZE: 9px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeOscuro10 {FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeOscuro10B {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeOscuro10BC {FONT-WEIGHT: bold; FONT-SIZE: 10px; font-style:italic; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeOscuro11B {FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeOscuro11BC {FONT-WEIGHT: bold; FONT-SIZE: 11px; font-style:italic; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeOscuro12B {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeOscuro12 {FONT-SIZE: 12px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+/********** TEXTO VERDE CLARO **********/
+.TextoVerdeClaro9 {FONT-SIZE: 9px; COLOR: #53af01; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeClaro10 {FONT-SIZE: 10px; COLOR: #53af01; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeClaro10B {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #53af01; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeClaro10BC {FONT-WEIGHT: bold; FONT-SIZE: 10px; font-style:italic; COLOR: #53af01; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeClaro11B {FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #53af01; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeClaro11BC {FONT-WEIGHT: bold; FONT-SIZE: 11px; font-style:italic; COLOR: #53af01; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoVerdeClaro12B {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #53af01; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+
+/********** TEXTO AZUL OSCURO **********/
+.TextoAzulOscuro9 {FONT-SIZE: 9px; COLOR: #284169; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoAzulOscuro9B {font-weight: bold; FONT-SIZE: 9px; COLOR: #284169; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoAzulOscuro10 {FONT-SIZE: 10px; COLOR: #284169; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoAzulOscuro10B {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #284169; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoAzulOscuro12B {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #284169; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+
+/********** TEXTO ROJO **********/
+.TextoRojo10B {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: Red; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoRojo12B {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: Red; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+/********** TITULOS ESPECIALES **********/
+.TextoDorsalFicha {FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TituloFinales {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 15px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TituloEntrada {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 15px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TituloTorneos {FONT-WEIGHT:bold; font-style:italic; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoIndexEnlace {FONT-SIZE: 10px; COLOR: #244c03; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+.TituloGrid {font-weight: bold; font-size: 10px; color: navy; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; background-color: #ffcc33;}
+
+.TituloPagina {FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TituloPagina2 {FONT-WEIGHT: normal; font-style: normal; FONT-SIZE: 14px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TituloSeccion {FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TituloPagina2Azul {FONT-WEIGHT: bold; font-style: italic; FONT-SIZE: 14px; COLOR: #284169; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+
+.TextoMenuA {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+.TextoMenuB {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #4fa700; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif}
+
+.eMenuA {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eMenuA:link {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eMenuA:visited {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eMenuA:active {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eMenuA:hover {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eMenuB:link {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #555555; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eMenuB:visited {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #555555; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eMenuB:active {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #555555; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eMenuB:hover {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #4fa700; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eMenuC:link {FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: navy; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eMenuC:visited {FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: navy; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eMenuC:active {FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: navy; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eMenuC:hover {FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #9999ff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eCampeonatos:link {font-style: italic; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eCampeonatos:visited {font-style: italic; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eCampeonatos:active {font-style: italic; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eCampeonatos:hover {font-style: italic; FONT-SIZE: 11px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eAnteriores:link {FONT-WEIGHT: bold; font-style: italic; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eAnteriores:visited {FONT-WEIGHT: bold; font-style: italic; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eAnteriores:active {FONT-WEIGHT: bold; font-style: italic; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eAnteriores:hover {FONT-WEIGHT: bold; font-style: italic; FONT-SIZE: 11px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+/********** LINKS **********/
+
+.eVerdeOscuro10B:link {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.eVerdeOscuro10B:visited {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.eVerdeOscuro10B:active {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.eVerdeOscuro10B:hover {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #d7991f; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+
+.eVerdeOscuro10Bt:link {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eVerdeOscuro10Bt:visited {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eVerdeOscuro10Bt:active {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eVerdeOscuro10Bt:hover {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #d7991f; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eBlanco10Bt:link {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eBlanco10Bt:visited {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eBlanco10Bt:active {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eBlanco10Bt:hover {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eNegro10t:link {FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegro10t:visited {FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegro10t:active {FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegro10t:hover {FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eNegro10Bt:link {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegro10Bt:visited {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegro10Bt:active {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegro10Bt:hover {FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eNegroBI:link {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegroBI:visited {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegroBI:active {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegroBI:hover {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eNegro10:link {FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.eNegro10:visited {FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.eNegro10:active {FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.eNegro10:hover {FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+
+.eGris10:link {FONT-SIZE: 10px; COLOR: #777777; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.eGris10:visited {FONT-SIZE: 10px; COLOR: #777777; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.eGris10:active {FONT-SIZE: 10px; COLOR: #777777; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.eGris10:hover {FONT-SIZE: 10px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+
+.eNegro12Bt:link {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegro12Bt:visited {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegro12Bt:active {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eNegro12Bt:hover {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.ePie:link {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.ePie:visited {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.ePie:active {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.ePie:hover {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: Gray; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eBlanco11BI:link {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eBlanco11BI:visited {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eBlanco11BI:active {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eBlanco11BI:hover {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 11px; COLOR: #ce142b; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.eCampeon:link {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eCampeon:visited {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eCampeon:active {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+.eCampeon:hover {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 14px; COLOR: #3f8600; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: none}
+
+.ePieIndex:link {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.ePieIndex:visited {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.ePieIndex:active {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+.ePieIndex:hover {FONT-WEIGHT: bold; font-style:italic; FONT-SIZE: 10px; COLOR: #777777; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; TEXT-DECORATION: underline}
+
+
+/********** CABECERAS DE TABLAS **********/
+
+A
+{
+    text-decoration: none;
+    color: Black;
+}
+
+.hoverUnderline:hover
+{
+    text-decoration: underline;
+}
+
+img
+{
+    border: none;
+}
+
+/********** CUADROS DE TEXTO **********/
+.TextBoxVerdeOscuro10 {FONT-SIZE: 10px; COLOR: Black; FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; border-style: solid; border-width: 1px; border-color: #3f8600;}
+
+/********** RESULTADOPARTIDO **********/
+.capaMarcador
+{
+    /*background-image: url('Imagenes/ResultadoPartido/FondoMarcador.jpg');*/
+    background-color: #264f02;
+    background-repeat: no-repeat;
+    color: White;
+    font-family: Arial;
+    font-size: 32pt;
+    font-weight: bold;
+    margin-top: 0px;
+    
+    border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+#capaFondoLocal
+{
+    background-image: url('Imagenes/ResultadoPartido/FondoLocal.png');
+    background-repeat: no-repeat;
+    color: White;
+    font-family: Arial;
+    font-weight: bold;
+    width: 388px;
+}
+#capaFondoVisitante
+{
+    background-image: url('Imagenes/ResultadoPartido/FondoVisitante.png');
+    background-repeat: no-repeat;
+    color: White;
+    font-family: Arial;
+    font-weight: bold;
+    width: 388px;    
+}
+.capaFondoConvocados
+{
+    background-image: url('Imagenes/ResultadoPartido/FondoConvocados.png');
+    background-repeat: no-repeat;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 8pt;
+    color: White;
+    width: 190px; 
+    height: 16px; 
+    text-align: center;
+    margin-top: 15px;
+}
+
+#capaCronica
+{
+    border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+/********** JUGADORVETADO **********/
+.CampoFormulario
+{
+    margin-left: 5px;
+    width: 250px;
+    FONT-SIZE: 9px; 
+    COLOR: #284169; 
+    FONT-FAMILY: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+/********** PRIVADOJUGADOR **********/
+
+.TituloPJ
+{    
+    margin: 15px 5px 0px 5px;
+    border-bottom: solid 1px #efaa21;       
+}
+
+#tablaDatosPersonales td
+{
+    width: 180px;
+    padding-right: 20px;
+}
+#tablaDatosPersonales2 td
+{
+    width: 120px;
+    padding-right: 20px;
+}
+#tablaDatosJugador td
+{
+    width: 160px;
+    padding-right: 20px;
+}
+
+#tablaDatosPersonales2
+{
+    margin-top: 16px;
+}
+#drpSexoPJ
+{
+    width: 70px;
+    height: 20px;
+}
+#txtFechaNac
+{
+    width: 85px;
+}
+#txtTelefono
+{
+    width: 150px;
+}
+#txtEmail
+{
+    width: 270px;
+}
+#fuFoto
+{
+    width: 250px;
+    height: 19px;
+    border: solid 1px Gray;
+}
+#txtDorsal
+{
+    width: 30px;
+}
+#drpDemarcacion
+{
+    width: 180px;   
+}
+.CampoTextoPJ
+{
+    width: 180px;
+    height: 16px;
+    border: solid 1px Gray;
+}
+.CampoTextoPJ2
+{
+    width: 120px;
+    height: 16px;
+    border: solid 1px Gray;
+}
+.DrpPJ
+{
+    height: 20px;
+}
+#tblIzquierdaPJ
+{
+    width: 374px;
+}
+#tblIzquierdaPJ td
+{
+    height: 31px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+#tblDerechaPJ
+{
+    width: 414px;
+}
+#tblDerechaPJ td
+{
+    height: 31px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.Validador
+{
+    color: Red;
+}
+
+/********* DETALLE MODULO *********/
+#tblDetalleModulo tr
+{
+    height: 30px;
+}
+
+textarea
+{
+    resize: none;
+}
+
+
+/*JUGADORES EQUIPO */
+.withoutImageBack
+{
+    background-image: none;
+}
+.tableThemeGreen
+{
+    border: solid 1px #e0fec4;   
+}
+.tableThemeGreen thead tr th
+{
+    background-color: #a9d780;
+    font-weight: normal;
+}
+
+.tableThemeGreen tr
+{
+    height: 20px;
+}
+.tableThemeGreen tbody tr:hover
+{
+    background-color: /*#53af01*/ #c9ff98;
+    color: Black;
+}
+.tableThemeGreen .trOdd
+{
+    background-color: #ebffd9;
+}
+
+.col15
+{
+    width: 15px;
+}
+.col25
+{
+    width: 25px;
+}
+.col30
+{
+    width: 30px;
+}
+.col40
+{
+    width: 40px;
+}
+.col50
+{
+    width: 50px;
+}
+.col100
+{
+    width: 100px;
+}
+.col200
+{
+    width: 200px;
+}
+.col230
+{
+    width: 230px;
+}
+.col300
+{
+    width: 300px;
+}
+.col370
+{
+    width: 370px;
+}
+.col60
+{
+    width: 60px;
+    text-align: center;
+}
+.border-left
+{
+    border-left: solid 1px;
+}
+
+.center
+{
+    text-align: center;
+}
+.left
+{
+    text-align: left;
+}
+.right
+{
+    text-align: right;
+}
+.borderRadius5
+{
+    border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+.userButtonLink
+{
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    padding: 3px 5px;  
+    background-image: url('Imagenes/Botones/backbuttonG.png'); 
+    background-repeat: repeat-x;
+    border: none;
+    /*color: #2A4982;*/
+    text-align: center;
+    display: block;
+}
+
+.userButtonLink:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+    text-decoration: none;
+}
+    /* CSS Document */
+
